@@ -1,6 +1,5 @@
 package com.wangjxian.simple;
 
-import java.util.Arrays;
 
 /**
  * 合并两个有序数组
