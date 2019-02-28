@@ -71,9 +71,7 @@ public class HasPathSum {
          tmp.add(root.val);
 
          if (root.right == null && root.left == null) {
-             List<Integer> list = new ArrayList<>();
-             list.addAll(tmp);
-             pathList.add(list);
+             pathList.add(new ArrayList<>(tmp));
              tmp.remove(Integer.valueOf(root.val));
          }
 
