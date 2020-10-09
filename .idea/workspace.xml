@@ -1,290 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5430476-7e3c-4292-ad01-267ca8072acc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/Merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/dafei-user-center" beforeDir="false" afterPath="$PROJECT_DIR$/../code/dafei-user-center" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/operation-center" beforeDir="false" afterPath="$PROJECT_DIR$/../code/operation-center" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/client/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/client/src/main/java/com/xinbang/ordermanger/client/OrdermangerClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/client/src/main/java/com/xinbang/ordermanger/client/OrdermangerClientFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/common/src/main/java/com/xinbang/ordermanger/common/AppConst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/common/src/main/java/com/xinbang/ordermanger/common/dto/UserDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/dao/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/dao/src/main/java/com/xinbang/ordermanger/dao/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/dao/src/main/java/com/xinbang/ordermanger/dao/aspect/DaoAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/dao/src/main/java/com/xinbang/ordermanger/dao/config/DaoConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/dao/src/main/java/com/xinbang/ordermanger/dao/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/dao/src/main/java/com/xinbang/ordermanger/dao/po/UserPo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/dao/src/main/resources/META-INF/spring.factories" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/dao/src/main/resources/sql/user.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/server/src/main/java/com/xinbang/ordermanger/server/OrdermangerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/server/src/main/java/com/xinbang/ordermanger/server/aspect/ControllerAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/server/src/main/java/com/xinbang/ordermanger/server/config/AppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/server/src/main/java/com/xinbang/ordermanger/server/constants/ErrorKeys.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/server/src/main/java/com/xinbang/ordermanger/server/controller/ManageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/server/src/main/java/com/xinbang/ordermanger/server/controller/RedisController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/server/src/main/java/com/xinbang/ordermanger/server/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/server/src/main/java/com/xinbang/ordermanger/server/service/ManageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/server/src/main/java/com/xinbang/ordermanger/server/service/RedisService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/server/src/main/java/com/xinbang/ordermanger/server/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/server/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/server/src/main/resources/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/server/src/main/resources/error.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/ordermanger/server/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/client/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/client/src/main/java/com/xinbang/orderserver/client/OrderserverClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/client/src/main/java/com/xinbang/orderserver/client/OrderserverClientFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/common/src/main/java/com/xinbang/orderserver/common/AppConst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/common/src/main/java/com/xinbang/orderserver/common/GenerateDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/common/src/main/java/com/xinbang/orderserver/common/dto/UserDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/common/src/main/java/com/xinbang/orderserver/common/dto/XbOrderDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/dao/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/dao/src/main/java/com/xinbang/orderserver/dao/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/dao/src/main/java/com/xinbang/orderserver/dao/aspect/DaoAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/dao/src/main/java/com/xinbang/orderserver/dao/config/DaoConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/dao/src/main/java/com/xinbang/orderserver/dao/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/dao/src/main/java/com/xinbang/orderserver/dao/dao/XbOrderDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/dao/src/main/java/com/xinbang/orderserver/dao/po/UserPo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/dao/src/main/java/com/xinbang/orderserver/dao/po/XbOrderPo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/dao/src/main/resources/META-INF/spring.factories" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/dao/src/main/resources/sql/user.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/src/main/java/com/xinbang/orderserver/server/GeneratorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/src/main/java/com/xinbang/orderserver/server/OrderserverConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/src/main/java/com/xinbang/orderserver/server/aspect/ControllerAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/src/main/java/com/xinbang/orderserver/server/constants/ErrorKeys.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/src/main/java/com/xinbang/orderserver/server/controller/OrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/src/main/java/com/xinbang/orderserver/server/controller/RedisController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/src/main/java/com/xinbang/orderserver/server/service/OrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/src/main/java/com/xinbang/orderserver/server/service/RedisServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/src/main/resources/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/src/main/resources/error.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/src/test/java/com/xinbang/orderserver/server/controller/OrderControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/src/test/java/com/xinbang/orderserver/server/controller/RedisControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/src/test/java/com/xinbang/orderserver/server/service/OrderServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/src/test/java/com/xinbang/orderserver/server/service/RedisServerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/orderserver/server/src/test/java/com/xinbang/orderserver/server/service/RedisServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/risk-decision" beforeDir="false" afterPath="$PROJECT_DIR$/../code/risk-decision" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code/user-center" beforeDir="false" afterPath="$PROJECT_DIR$/../code/user-center" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/qq/src/main/java/com/wangjxian/qq/social/SocialConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/qq/src/main/java/com/wangjxian/qq/social/SocialUserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/qq/src/main/java/com/wangjxian/qq/social/api/QQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/spring-social/src/main/java/com/wangjxian/springsocial/social/MerryyouSpringSocialConfigurer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/spring-social/src/main/java/com/wangjxian/springsocial/social/MyConnectionSignUp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/spring-social/src/main/java/com/wangjxian/springsocial/social/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/spring-social/src/main/java/com/wangjxian/springsocial/social/SocialConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/spring-social/src/main/java/com/wangjxian/springsocial/social/SocialUserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/spring-social/src/main/java/com/wangjxian/springsocial/social/constants/SecurityConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/spring-social/src/main/java/com/wangjxian/springsocial/social/qq/api/QQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/spring-social/src/main/java/com/wangjxian/springsocial/social/qq/api/QQUserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/spring-social/src/main/java/com/wangjxian/springsocial/social/qq/api/impl/QQImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/spring-social/src/main/java/com/wangjxian/springsocial/social/qq/config/MerryyouSpringSocialConfigurer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/spring-social/src/main/java/com/wangjxian/springsocial/social/qq/config/QQAuthConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/spring-social/src/main/java/com/wangjxian/springsocial/social/qq/connect/MyConnectionSignUp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/spring-social/src/main/java/com/wangjxian/springsocial/social/qq/connect/QQAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/spring-social/src/main/java/com/wangjxian/springsocial/social/qq/connect/QQConnectionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/spring-social/src/main/java/com/wangjxian/springsocial/social/qq/connect/QQOAuth2Template.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/spring-social/src/main/java/com/wangjxian/springsocial/social/qq/connect/QQServiceProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dev/itmayiedu-shopp-parent/itmayiedu-shopp-eurekaserver/target/itmayiedu-shopp-eurekaserver-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../develop" beforeDir="false" afterPath="$PROJECT_DIR$/../develop" afterDir="false" />
+    <list default="true" id="a5430476-7e3c-4292-ad01-267ca8072acc" name="Default Changelist" comment="maximalSquare1">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/MyBlog/blog" beforeDir="false" afterPath="$PROJECT_DIR$/../self/MyBlog/blog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/MyBlog/blog.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/generatorSqlmapCustom" beforeDir="false" afterPath="$PROJECT_DIR$/../self/generatorSqlmapCustom" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/hchat/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../self/hchat/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/itmayiedu-shopp-parent/itmayiedu-shopp-common/target/itmayiedu-shopp-common-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/itmayiedu-shopp-parent/itmayiedu-shopp-eurekaserver/target/itmayiedu-shopp-eurekaserver-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/j2se/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../self/j2se/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/arithmetic/search/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/arithmetic/search/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/arithmetic/sort/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/arithmetic/sort/Insertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/arithmetic/sort/Insertion2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/arithmetic/sort/Insertion2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/arithmetic/sort/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/arithmetic/sort/Merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/arithmetic/sort/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/arithmetic/sort/Quick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/arithmetic/sort/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/arithmetic/sort/Selection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/arithmetic/sort/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/arithmetic/sort/Shell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/arithmetic/sort/SortCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/../self/j2se/src/main/java/com/example/demo/arithmetic/sort/SortCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/j2se/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../self/j2se/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/logback" beforeDir="false" afterPath="$PROJECT_DIR$/../self/logback" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/orderserver" beforeDir="false" afterPath="$PROJECT_DIR$/../self/orderserver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/rebuild-cache/src/main/java/com/wangjxian/cache/component/listener/InitListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../self/rebuild-cache/src/main/java/com/wangjxian/cache/component/listener/InitListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/rebuild-cache/src/main/java/com/wangjxian/cache/component/redis/RedisLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../self/rebuild-cache/src/main/java/com/wangjxian/cache/component/redis/RedisLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../self/redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../self/redis/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../self/redis/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/redis/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../self/redis/src/test/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../self/spring/spring-data-redis" beforeDir="false" afterPath="$PROJECT_DIR$/../self/spring/spring-data-redis" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/.postcssrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/build/build.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/build/check-versions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/build/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/build/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/build/vue-loader.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/build/webpack.base.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/build/webpack.dev.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/build/webpack.prod.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/config/dev.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/config/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/config/prod.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/.gitrepo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/assets/1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/assets/2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/assets/KFOlCnqEu92Fr1MmEU9fBBc4.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/assets/baby.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/assets/material.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/components/MyComponent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/components/cascader/Cascader.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/components/form/Editor.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/components/form/Upload.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/components/messages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/components/tree/Tree.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/components/tree/TreeItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/http.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/mockDB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/pages/Dashboard.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/pages/Layout.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/pages/Login.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/pages/item/Brand.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/pages/item/BrandForm.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/pages/item/Category.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/pages/item/Goods.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/pages/item/GoodsForm.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/pages/item/specification/SpecGroup.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/pages/item/specification/SpecParam.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/pages/item/specification/Specification.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/pages/trade/Promotion.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/pages/user/Statistics.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/leyou-manage-web/static/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop/shop-web" beforeDir="false" afterPath="$PROJECT_DIR$/../shop/shop-web" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/LengthOfLastWord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/PlusOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/AddBinary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/Sqrt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/ClimbStairs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/DeleteDuplicates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="30" column="20" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="30" selection-end-column="20" />
-              <folding>
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/Merge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="734" selection-start-line="734" selection-end-line="734" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="3284" column="23" lean-forward="true" selection-start-line="3284" selection-start-column="8" selection-end-line="3284" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/math/BigInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="1223" column="43" lean-forward="true" selection-start-line="1223" selection-start-column="43" selection-end-line="1223" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -297,28 +42,10 @@
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/RemoveElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/StrStr.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/SearchInsert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/maxSubArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/MaxSubArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/LengthOfLastWord.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/PlusOne.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/AddBinary.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/Sqrt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/ClimbStairs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/DeleteDuplicates.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/Merge.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/develop/apache-maven" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
         <option name="userSettingsFile" value="$USER_HOME$/develop/apache-maven/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -329,56 +56,16 @@
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectId" id="1idUwpKpodyMFdavYL9ake2NwJx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548836882542" />
@@ -389,18 +76,6 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Merge">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -489,6 +164,10 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -504,11 +183,24 @@
       <workItem from="1548318480635" duration="1665000" />
       <workItem from="1548320253109" duration="13036000" />
       <workItem from="1548658440477" duration="9339000" />
+      <workItem from="1602237205080" duration="333000" />
     </task>
+    <task id="LOCAL-00001" summary="maximalSquare1">
+      <created>1602237354238</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602237354238</updated>
+    </task>
+    <task id="LOCAL-00002" summary="maximalSquare1">
+      <created>1602237497544</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602237497544</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24065000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,102 +211,15 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32939634" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39895013" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32939634" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32939634" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32939634" />
-      <window_info anchor="bottom" id="LuaCheck" order="12" />
-      <window_info anchor="bottom" id="Statistic" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32939634" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="BPMNPalette" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32939634" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32939634" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32939634" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32939634" />
-      <window_info anchor="bottom" id="LuaCheck" order="12" />
-      <window_info anchor="bottom" id="Statistic" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32939634" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="BPMNPalette" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -633,178 +238,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/IsPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/IsValid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/LongestCommonPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/StrStr.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/CharSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="2131" column="32" lean-forward="true" selection-start-line="2131" selection-start-column="32" selection-end-line="2131" selection-end-column="32" />
-          <folding>
-            <element signature="e#82971#82972#0" expanded="true" />
-            <element signature="e#83020#83021#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/MergeTwoLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/RemoveDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/RomanToInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/RemoveElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/SearchInsert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/MaxSubArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/LengthOfLastWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/PlusOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/math/BigInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="1223" column="43" lean-forward="true" selection-start-line="1223" selection-start-column="43" selection-end-line="1223" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/AddBinary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/Sqrt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/ClimbStairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/DeleteDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="20" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="30" selection-end-column="20" />
-          <folding>
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="3284" column="23" lean-forward="true" selection-start-line="3284" selection-start-column="8" selection-end-line="3284" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="489" column="69" lean-forward="true" selection-start-line="489" selection-start-column="69" selection-end-line="489" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="734" selection-start-line="734" selection-end-line="734" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangjxian/simple/Merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="maximalSquare1" />
+    <option name="LAST_COMMIT_MESSAGE" value="maximalSquare1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1602237502243">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1602237502243" />
   </component>
   <component name="masterDetails">
     <states>
