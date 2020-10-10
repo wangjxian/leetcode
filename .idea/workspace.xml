@@ -23,8 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5430476-7e3c-4292-ad01-267ca8072acc" name="Default Changelist" comment="delete iml">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/longestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/longestValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/maximalSquare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,43 +74,23 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548836882542" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.Merge">
-    <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wangjxian.simple.AddBinary" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wangjxian.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.longestValidParentheses">
     <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wangjxian.simple.ClimbStairs" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wangjxian.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wangjxian.simple.MaxSubArray" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -144,6 +128,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="longestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.wangjxian.simple.longestPalindrome" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangjxian.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="longestValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangjxian.simple.longestValidParentheses" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangjxian.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -155,13 +167,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ClimbStairs" />
+      <item itemvalue="Application.longestPalindrome" />
+      <item itemvalue="Application.Merge" />
+      <item itemvalue="Application.Sqrt" />
+      <item itemvalue="Application.longestValidParentheses" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.longestValidParentheses" />
+        <item itemvalue="Application.longestPalindrome" />
         <item itemvalue="Application.Merge" />
         <item itemvalue="Application.ClimbStairs" />
         <item itemvalue="Application.Sqrt" />
-        <item itemvalue="Application.AddBinary" />
-        <item itemvalue="Application.MaxSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +203,7 @@
       <workItem from="1548318480635" duration="1665000" />
       <workItem from="1548320253109" duration="13036000" />
       <workItem from="1548658440477" duration="9339000" />
-      <workItem from="1602237205080" duration="561000" />
+      <workItem from="1602237205080" duration="12260000" />
     </task>
     <task id="LOCAL-00001" summary="maximalSquare1">
       <created>1602237354238</created>
@@ -214,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602237703694</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="delete iml">
+      <created>1602237785105</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602237785105</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -261,118 +287,57 @@
     <option name="LAST_COMMIT_MESSAGE" value="delete iml" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1602237545189">
+    <state x="184" y="123" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602247792016">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1602237545189" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="Copyright.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>algs4</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>leetcode</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="184" y="123" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1602247792016" />
+    <state x="431" y="230" key="#xdebugger.evaluate" timestamp="1602249765656">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="431" y="230" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1602249765656" />
+    <state width="1396" height="237" key="GridCell.Tab.0.bottom" timestamp="1602296015814">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="237" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1602296015814" />
+    <state width="1396" height="237" key="GridCell.Tab.0.center" timestamp="1602296015812">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="237" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1602296015812" />
+    <state width="1396" height="237" key="GridCell.Tab.0.left" timestamp="1602296015811">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="237" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1602296015811" />
+    <state width="1396" height="237" key="GridCell.Tab.0.right" timestamp="1602296015813">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="237" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1602296015813" />
+    <state width="1396" height="285" key="GridCell.Tab.1.bottom" timestamp="1602295786393">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1602295786393" />
+    <state width="1396" height="285" key="GridCell.Tab.1.center" timestamp="1602295786392">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1602295786392" />
+    <state width="1396" height="285" key="GridCell.Tab.1.left" timestamp="1602295786392">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1602295786392" />
+    <state width="1396" height="285" key="GridCell.Tab.1.right" timestamp="1602295786392">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1602295786392" />
+    <state x="491" y="171" key="RollbackChangesDialog" timestamp="1602237769687">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="491" y="171" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1602237769687" />
+    <state x="259" y="63" key="SettingsEditor" timestamp="1602247835475">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="259" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1602247835475" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1602237788318">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1602237788318" />
   </component>
 </project>

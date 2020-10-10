@@ -16,9 +16,14 @@ package com.wangjxian.simple;
 //1 1 1 1 1
 //1 0 0 1 0
 //
-//输出: 4 
-// Related Topics 动态规划 
-class Solution {
+//输出: 4
+
+
+// Related Topics 动态规划
+//
+//P(i,j) = min( P(i-1,j-1),P(i-1,p),P(i,j-1) ) + 1
+//
+class maximalSquare {
 
 
     public int maximalSquare1(char[][] matrix) {
@@ -76,7 +81,7 @@ class Solution {
     public static void main(String[] args) {
         char[][] matrix = {{1,0,1,1,0},{1,1,1,1,1},{1,1,1,1,1},{1,0,0,1,0}};
 
-        System.out.println( new Solution().maximalSquare1(matrix));
-        System.out.println( new Solution().maximalSquare2(matrix));
+        System.out.println( new maximalSquare().maximalSquare1(matrix));
+        System.out.println( new maximalSquare().maximalSquare2(matrix));
     }
 }
