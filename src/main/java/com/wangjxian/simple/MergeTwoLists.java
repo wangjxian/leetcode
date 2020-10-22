@@ -16,6 +16,8 @@ package com.wangjxian.simple;
  */
 public class MergeTwoLists {
 
+    //pilipala
+
     public class ListNode {
         int val;
         ListNode next;
