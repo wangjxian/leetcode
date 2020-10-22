@@ -20,6 +20,9 @@ public class MaxSubArray {
 
     /**
      * 动态规划
+     *          {  S (n) + P(n-1) , P(n-1)>0
+     *   P(n) =
+     *           }  S(n) , P(n-1)<=0
      * @param  nums
      * @return  int
      */
