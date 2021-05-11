@@ -1,25 +1,30 @@
 package com.wangjxian.simple;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
-public class calculate {
-
-
-
+public class calculate2 {
 
 
   public static void main(String[] args) {
 //    System.out.println(new calculate().calculate("3+5*8-6*2+3"));
-    System.out.println(new calculate().calculate("(1+(3+1)*2)*2+2"));
+    System.out.println(new calculate2().calculate("(1+2)*(3+4)"));
+    System.out.println(new calculate2().calculate("(1*2+3)*4*5"));
+    System.out.println(new calculate2().calculate("((9+10)*7*8+6)*1*2*(3+4+5)"));
   }
 
-  public int calculate(String str){
-    Stack<Integer> number = new Stack<>();
+  public List<List<String>> calculate(String str){
+    Stack<List<List<String>>> number = new Stack<>();
     Stack<Character> symbol = new Stack<>();
     for (char c :str.toCharArray()){
       if (Character.isDigit(c)){
         //数字 压入 number栈
-        number.push(Integer.parseInt(String.valueOf(c)));
+        List<String> list= new ArrayList<>();
+        list.add(String.valueOf(c));
+        List<List<String>> list1 = new ArrayList<>();
+        list1.add(list);
+        number.push(list1);
       }else {
         //是括号
         if (c=='('){
@@ -46,8 +51,8 @@ public class calculate {
             if (peek=='('){
               break;
             }
-            Integer n1 = number.pop();
-            Integer n2 = number.pop();
+            List<List<String>> n1 = number.pop();
+            List<List<String>> n2 = number.pop();
             number.push(calculate(n2,n1,symbol.pop()));
           }
           symbol.push(c);
@@ -58,38 +63,45 @@ public class calculate {
     //最后计算结果 最后若有多个计算必是 先 */ 再 +-
     while (!symbol.empty()){
       Character pop = symbol.pop();
-      Integer n1 = number.pop();
-      Integer n2 = number.pop();
+      List<List<String>> n1 = number.pop();
+      List<List<String>> n2 = number.pop();
       number.push(calculate(n2,n1,pop));
     }
     return number.pop();
   }
 
-  private void calculateAndPush(Stack<Integer> number, Stack<Character> symbol) {
+  private void calculateAndPush(Stack<List<List<String>>> number, Stack<Character> symbol) {
     while (!symbol.empty()){
       Character pop = symbol.pop();
       if (pop == '('){
         break;
       }
-      Integer n1 = number.pop();
-      Integer n2 = number.pop();
-      number.push(calculate(n2,n1,pop));
+      List<List<String>> n1 = number.pop();
+      List<List<String>> n2 = number.pop();
+      number.push(calculate(n1,n2,pop));
     }
   }
 
 
-  public int calculate(int n1,int n2,Character s){
+  public List<List<String>> calculate(List<List<String>> n1,List<List<String>> n2,Character s){
+    List<List<String> > result = new ArrayList<>();
     switch (s){
       case '+':
-        return n1+n2;
-      case '-':
-        return n1-n2;
+        result.addAll(n1);
+        result.addAll(n2);
+        return result;
       case '*':
-        return n1*n2;
-      case '/':
-        return n1/n2;
+        for (List<String> list1 : n1) {
+          for (List<String> list2 : n2) {
+            List<String> sub = new ArrayList<>();
+            sub.addAll(list1);
+            sub.addAll(list2);
+            result.add(sub);
+          }
+        }
+        return result;
       default:
-        return 0;
+        return result;
     }
   }
 }
