@@ -22,17 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5430476-7e3c-4292-ad01-267ca8072acc" name="Default Changelist" comment="DP">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangjxian/algo/sort/AbstractSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangjxian/algo/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangjxian/learning/BracketMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangjxian/learning/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/calculate2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a5430476-7e3c-4292-ad01-267ca8072acc" name="Default Changelist" comment="sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/calculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wangjxian/simple/calculate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangjxian/learning/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wangjxian/learning/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,11 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="calculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wangjxian.simple.calculate" />
       <module name="leetcode" />
@@ -174,17 +161,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="NimRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="nim.task.build.to.cache" enabled="true" />
       </method>
     </configuration>
     <list>
@@ -236,7 +226,11 @@
       <workItem from="1620456283284" duration="8062000" />
       <workItem from="1620630001984" duration="3225000" />
       <workItem from="1620697278516" duration="1947000" />
-      <workItem from="1620700378284" duration="13180000" />
+      <workItem from="1620700378284" duration="13808000" />
+      <workItem from="1620736002273" duration="536000" />
+      <workItem from="1620737270008" duration="322000" />
+      <workItem from="1620783487010" duration="226000" />
+      <workItem from="1620959181710" duration="4465000" />
     </task>
     <task id="LOCAL-00001" summary="maximalSquare1">
       <created>1602237354238</created>
@@ -287,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603335789093</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="sort">
+      <created>1620720239445</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620720239445</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -332,7 +333,8 @@
     <MESSAGE value="maximalSquare1" />
     <MESSAGE value="delete iml" />
     <MESSAGE value="DP" />
-    <option name="LAST_COMMIT_MESSAGE" value="DP" />
+    <MESSAGE value="sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
